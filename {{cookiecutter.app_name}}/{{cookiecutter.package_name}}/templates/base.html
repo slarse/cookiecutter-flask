@@ -2,9 +2,11 @@
 {% extends "bootstrap/base.html" %}
 {% endraw %}
 {% block title %}{{cookiecutter.app_title}}{% endblock %}
+{% raw %}
 
 {% block content %}
 <div class='container'>
     {% block page_content %}{% endblock %}
 </div>
 {% endblock %}
+{% endraw %}

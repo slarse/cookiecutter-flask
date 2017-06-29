@@ -1,5 +1,6 @@
 flask
 flask-bootstrap
+flask-script
 codecov
 pytest
 pytest-cov
