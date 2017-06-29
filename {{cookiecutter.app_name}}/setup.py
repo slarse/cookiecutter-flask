@@ -9,7 +9,8 @@ with open('LICENSE') as f:
 
 test_requirements = ['pytest>=3.1.1', 'pytest-cov>=2.5.1', 'codecov']
 required = ['flask',
-            'flask-bootstrap']
+            'flask-bootstrap',
+            'flask-script']
 
 setup(
     name='{{cookiecutter.app_name}}',
@@ -24,5 +25,6 @@ setup(
     license=license,
     packages=find_packages(exclude=('tests', 'docs')),
     tests_require=test_requirements,
-    install_requires=required
+    install_requires=required,
+    scripts=['bin/{{cookiecutter.app_name}}']
 )
