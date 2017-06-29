@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 """Tests for the factory module.
 
-Author: {cookiecutter.author_name}
+Author: {{cookiecutter.author_name}}
 """
 from unittest import TestCase
-from .context import factory
+from .context import {{cookiecutter.package_name}}
+from {{cookiecutter.package_name}} import factory
 
 class TestFactory(TestCase):
     def setUp(self):

@@ -3,7 +3,7 @@
 .. module:: views
     :platform: Unix
     :synopsis: Views for the main package.
-.. moduleauthor:: {cookiecutter.author_name} <{cookiecutter.email}>
+.. moduleauthor:: {{cookiecutter.author_name}} <{{cookiecutter.email}}>
 """
 from flask import Flask
 from flask_bootstrap import Bootstrap

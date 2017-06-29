@@ -2,6 +2,6 @@ language: python
 python:
     - "3.6"
 install: "pip install -r requirements.txt"
-script: pytest --cov={cookiecutter.package_name}
+script: pytest --cov={{cookiecutter.package_name}}
 after_success:
     - codecov

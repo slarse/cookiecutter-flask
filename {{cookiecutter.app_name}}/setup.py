@@ -12,14 +12,14 @@ required = ['flask',
             'flask-bootstrap']
 
 setup(
-    name='{cookiecutter.app_name}',
+    name='{{cookiecutter.app_name}}',
     version='0.0.1',
-    description=('{cookiecutter.description}'
+    description=('{{cookiecutter.description}}'
                  'set of tools for compressing PDF files to e-reader friendly sizes.'),
     long_description=readme,
     author='Simon Larsén',
     author_email='slarse@kth.se',
-    url='https://github.com/slarse/{cookiecutter.app_name}',
+    url='https://github.com/slarse/{{cookiecutter.app_name}}',
     #download_url='https://github.com/slarse/{cookiecutter.app_name}/archive/v0.1.0.tar.gz',
     license=license,
     packages=find_packages(exclude=('tests', 'docs')),
