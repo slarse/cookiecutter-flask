@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """Views for the main package of {cookiecutter.app_name}
 
 .. module:: views
