@@ -1,0 +1,13 @@
+{% raw %}
+{% extends "base.html" %}
+{% block page_content %}
+{% endraw %}
+<h1>About {{cookiecutter.app_title}}</h1>
+<p>{{cookiecutter.description}}. {{cookiecutter.app_title}} is open source and
+    available on <a href=
+        "https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.app_name}}/">
+        GitHub</a>
+</p>
+{% raw %}
+{% endblock %}
+{% endraw %}
