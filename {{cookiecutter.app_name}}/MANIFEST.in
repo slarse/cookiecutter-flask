@@ -1,2 +1,4 @@
 README.rst
 LICENSE
+include-recursive {{cookiecutter.package_name}}/templates *
+include-recursive {{cookiecutter.package_name}}/static *
