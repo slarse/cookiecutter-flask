@@ -1,4 +1,4 @@
-"""Factory module for the main package of {cookiecutter.app_name}
+"""Factory module for the main package of {{cookiecutter.app_name}}
 
 .. module:: views
     :platform: Unix
